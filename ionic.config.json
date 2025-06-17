@@ -1,0 +1,7 @@
+{
+  "name": "phone-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
