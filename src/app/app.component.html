@@ -1,3 +1,21 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="favourites" [routerLink]="['/favourites']">
+        <ion-icon name="star-outline"></ion-icon>
+        <ion-label>Favourites</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="recents" [routerLink]="['/recents']">
+        <ion-icon name="time-outline"></ion-icon>
+        <ion-label>Recents</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="contacts" [routerLink]="['/contacts']">
+        <ion-icon name="people-outline"></ion-icon>
+        <ion-label>Contacts</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-app>
